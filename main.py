@@ -27,4 +27,4 @@ def to_morse_code(word: str):
 
 
 user_input = input("Enter a string: ")
-print(to_morse_code(user_input))
+print(f"{user_input} as morse code is {to_morse_code(user_input)})
